@@ -37,11 +37,9 @@ const navvvv = navItems.map(navData => {
 
 const bgChange = (e)=> {
     if(window.scrollY >= navTop){
-        navbar.style.background = '#A3A3A3'
         logo.style.transform = 'translateX(0%)';
 
     }else{
-        navbar.style.background = '#073f07';
         logo.style.transform = 'translateX(-1500%)';
     }
 }
