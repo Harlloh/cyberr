@@ -35,12 +35,14 @@ const navvvv = navItems.map(navData => {
     navData.addEventListener('click', noDispnav )
 })
 
-const bgChange = (e)=> {
+const bgChange = ()=> {
     if(window.scrollY >= navTop){
+        navbar.style.position = 'fixed'
         logo.style.transform = 'translateX(0%)';
 
     }else{
-        logo.style.transform = 'translateX(-1500%)';
+        navbar.style.position = 'inherit'
+        logo.style.transform = 'translateX(-150%)';
     }
 }
 
