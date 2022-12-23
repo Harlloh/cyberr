@@ -37,11 +37,13 @@ const navvvv = navItems.map(navData => {
 
 const bgChange = ()=> {
     if(window.scrollY >= navTop){
+        document.body.style.paddingTop = navbar.offsetHeight + 'px'; 
         navbar.style.position = 'fixed'
-        navbar.style.background = 'black'
+        // navbar.style.background = 'black'
         logo.style.transform = 'translateX(0%)';
 
     }else{
+        document.body.style.paddingTop = 0; 
         navbar.style.position = 'inherit'
         logo.style.transform = 'translateX(-150%)';
     }
