@@ -238,7 +238,7 @@ hr{
 }
 @media screen and (max-width:640px) {
     .TOPS h1{
-        font-size: 3.5rem;
+        font-size: 3rem;
         font-weight: 500;
     }
     .hamburger, .cancel{
