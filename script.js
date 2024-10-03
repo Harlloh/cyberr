@@ -4,7 +4,7 @@ const cancel = document.querySelector('.cancel');
 const cancels = document.querySelector('.cancels');
 const navbar = document.querySelector('header');
 const logo = document.querySelector('.logo');
-const contact = document.querySelector('#contact');
+const contact = document.getElementById('contact');
 const contactPage = document.querySelector('#contact-page');
 const contactNav = document.querySelector('#COntact');
 const navItem = document.querySelectorAll('li');
@@ -19,7 +19,7 @@ const dispNav = ()=> {
     // ham.style.display = 'flex';
 }
 const nodispNav = ()=> {
-    nav.style.right = '110%';
+    nav.style.right = '120%';
 }
 const disp = ()=> {
     contactPage.style.display = 'flex';

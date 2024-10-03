@@ -147,13 +147,27 @@ header{
     display: grid;
     gap: 1.5rem;
 }
+.service-info{
+    font-weight: 800;
+    margin-top: 1rem;
+}
+.through{
+    margin-top: 1rem;
+}
+.discord{
+    color: white;
+    background-color: #fff;
+}
+.take{
+    margin: 0.5rem;
+}
 .hero-details button, .services-container button{
     width: 9rem;
 }
 .services-container{
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
     position: relative;
 }
 .services-container h2{
