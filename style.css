@@ -292,7 +292,13 @@ hr{
         flex-direction: column;
         justify-content:  center;
         align-items: center;
-        gap: 4rem;
+        /* gap: 4rem; */
+    }
+    .listt{
+        gap: 0.1rem !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
     }
  ul li a{
             font-size: 1rem;
